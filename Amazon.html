@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 0">
+        <meta name="description" content="Amazon clone website">
+        <title>Amazon Clone Website</title>
+    </head>
+    <body>
+        <header>
+            <div id="logo box">
+                <img alt="logo" src="data:image/png;base64,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">
+            </div>
+        </header>
+        <div class="border">
+            <h1 class="create">Create account</h1>
+            <form>
+                <label>Your name</label>
+                <input type="text" id="name" required>
+                <label>Email</label> 
+                <input type="email" required id="mail">
+                <label>Password</label>
+<input type="password" min="6" placeholder="At least 6 characters">
+<p><span class="i">i</span> <span class="pass">password must be at least 6 characters</span> </p>
+<label>Re enter password</label>
+<input type="password" min="6">
+<button href="">Create your amazon account</button>
+            </form>
+            <p class="condition">By creating an account, you agree to Amazon's <a href="conditions" target="_blank">Conditions of Use</a> and <a href="privacy">Privacy notice.</a></p>
+            <p class="condition below">Already have an account? <a href="account" target="_blank">Sign in ></a></p>
+        </div>
+    </body>
+</html>
+<style>
+    body {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 1600px;
+}
+#logo box {
+    width: 50vw;
+    height:70px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    width: 50vw;
+    height: 200px;
+    margin-left: 25vw;
+}
+.border {
+    height: 1300px;
+    width: 90vw;
+    border: 3px solid gray;
+    padding-left: 7vw;
+}
+.create {
+        font-size: 60px;
+        font-family: verdana;
+    }
+    label {
+        display: block;
+        font-size: 25px;
+        font-style: bold;
+        position: relative;
+        top: 73px;
+        font-family: verdana;
+        
+    }
+    input {
+        width: 76vw;
+        height: 70px;
+        margin-top: 75px;
+        font-size: 25px;
+        font-style: italic ;
+    }
+    button {
+        width: 76vw;
+        height: 70px;
+        margin-top: 75px;
+        background-color: rgba(255, 255, 0, 1);
+        font-size: 25px;
+        font-family: verdana;
+    }
+    .condition {
+        margin-top: 75px;
+        font-size: 22px;
+        font-family: verdana;
+    }
+    a {
+        text-decoration: none;
+        font-family: verdana;
+    }
+    input:active {
+        border:2px solid yellow;
+    }
+button:active {
+    transform: scale(1.1);
+}
+.i {
+    color: blue;
+    font-style: italic;
+    font-size: 15px;
+}
+.pass {
+    font-size: 15px;
+    margin-left: 3px;
+}
+a:hover {
+    color: black;
+}
+@media (max-width:700px) and (min-width: 350px) {
+.border {
+    max-width: 86vw;
+}
+body {
+    height: 1700px;
+}
+}
+</style>
